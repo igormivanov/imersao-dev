@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #5B8FF7;
+    --cor1: #105DF5;
+    --cor2: #0E4AC2;
+    --cor3: #082D75;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0px 0px 60px 0px;
+    height: 10px;
+    font-weight: bold;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1), var(--cor2), var(--cor3));
+    padding-bottom: 59px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+
+main {
+    height: 749px;
+    width: 800px;
+    background-color: var(--cor4);
+    margin: auto;
+    border-radius: 30px;
+    background-image: url("https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-calculadora_114360-1239.jpg?t=st=1647267333~exp=1647267933~hmac=7dbc4aef4591e4a4292e4171df8d746d675545334e96bebbd0572e1ffb5be8a8&w=826");
+}
+
+.pad {
+    padding-top: 100px;
+}
+
+.notas {
+    height: 450px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.849);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.valor {
+    padding: 30px;
+}
+
+label {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.resposta {
+    background-color: rgba(0, 0, 0, 0.849);
+    width: 300px;
+    padding: 20px 0px 20px 0px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+}
